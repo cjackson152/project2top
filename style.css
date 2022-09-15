@@ -55,3 +55,10 @@ div.footer {
     border: 1vh solid #FFEBAD;
 
 }
+
+.boxes {
+    border: 10px;
+    border-style: ridge;
+    border-color: #FFF6BF;
+
+}
