@@ -3,7 +3,7 @@ body {
     padding: 0px;
     background-color: #C3F8FF;
     position: relative;
-    overflow-x: hidden;
+    overflow: auto
 }
 
 div.wrapper1 {
@@ -15,8 +15,7 @@ div.wrapper1 {
     width: 100%;
     height: 20vh;
     padding: 0px;
-    border: 1vh solid #C3F8FF;
-    
+    float: left;
 }
 
 div.wrapper2 {
@@ -28,8 +27,8 @@ div.wrapper2 {
     width: 100%;
     margin: 0px;
     height: 40vh;
-    padding: 0px;
-    border: 1vh solid #ABD9FF;
+    float: left;
+
 }
 
 div.wrapper3 {
@@ -39,9 +38,11 @@ div.wrapper3 {
     right: 0px;
     top: 0px;
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     padding: 0px;
-    border: 1vh solid #FFF6BF;
+    text-align: justify;
+    float: left;
+    border-bottom: 5vh solid #FFEBAD;
 }
 
 div.footer {
@@ -50,15 +51,26 @@ div.footer {
     left: 0px;
     right: 0px;
     top: 0px;
-    height: 12vh;
+    height: 5vh;
     width: 100%;
-    border: 1vh solid #FFEBAD;
+    float: left;
+    align-items: center;
+    
 
 }
 
 .boxes {
-    border: 10px;
-    border-style: ridge;
+    border: 3px;
+    border-style: dashed;
     border-color: #FFF6BF;
-
+    margin: 5%;
+    padding: 4vh;
+    text-align: center;
+    float: left;
+    
 }
+
+.doit {
+    margin-left: 72vh;
+}
+
